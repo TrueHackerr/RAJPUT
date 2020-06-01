@@ -20,7 +20,7 @@ except ImportError:
 
 colors=['\033[1;31m','\033[1;32m','\033[1;33m','\033[1;34m','\033[1;35m','\033[1;36m']
 W='\033[0m'
-# The Credit For This Code Goes To SpeedX And All Other Contributors Listed At https://github.com/TheSpeedX/TBomb
+# The Credit For This Code Goes To RAJPUT And All Other Contributors Listed At https://github.com/TrueHackerr/RAJPUT
 # If You Wanna Take Credits For This Code, Please Look Yourself Again
 
 country_codes = {
@@ -646,8 +646,8 @@ def getapi(pn,lim,cc):
 
         data = {
           'email': cc+pn,
-          'firstname': 'SpeedX',
-          'lastname': 'SpeedX'
+          'firstname': 'RAJPUT',
+          'lastname': 'RAJPUT'
         }
 
         response = requests.post('https://www.aala.com/accustomer/ajax/getOTP', headers=headers, cookies=cookies, json=data)
@@ -727,7 +727,7 @@ def start(target, counter, delay, ch, cc):
                 else:
                     print('\n\n\tSorry Your Country is Not Supported...')
                     print(
-                        '\t\tPlease Send A Mail To ggspeedx29@gmail.com To Let Us Know...')
+                        '\t\tPlease Send A Mail To manvendrasingh0742@gmail.com To Let Us Know...')
                     input('Press Enter To Exit...')
                     exit()
         print(random.choice(colors))
